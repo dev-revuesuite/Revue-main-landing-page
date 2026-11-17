@@ -18,6 +18,8 @@
     { "source": "/privacy", "destination": "/website/privacy.html" },
     { "source": "/privacy.html", "destination": "/website/privacy.html" },
     { "source": "/terms", "destination": "/website/terms.html" },
-    { "source": "/terms.html", "destination": "/website/terms.html" }
+    { "source": "/terms.html", "destination": "/website/terms.html" },
+    { "source": "/sitemap.xml", "destination": "/website/sitemap.xml" },
+    { "source": "/sitemap-pages.xml", "destination": "/website/sitemap-pages.xml" }
   ]
 }

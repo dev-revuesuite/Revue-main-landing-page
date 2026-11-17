@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Sitemap index for revuesuite.com: landing pages + the blog app's sitemap. -->
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <sitemap>
+    <loc>https://revuesuite.com/sitemap-pages.xml</loc>
+    <lastmod>2026-11-17</lastmod>
+  </sitemap>
+  <sitemap>
+    <loc>https://revuesuite.com/sitemap-blog.xml</loc>
+  </sitemap>
+</sitemapindex>

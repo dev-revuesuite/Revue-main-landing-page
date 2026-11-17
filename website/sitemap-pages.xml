@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Landing pages. When you add a page, add its clean URL here too. -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://revuesuite.com/</loc><lastmod>2026-11-17</lastmod></url>
+  <url><loc>https://revuesuite.com/pricing</loc><lastmod>2026-11-17</lastmod></url>
+
+  <url><loc>https://revuesuite.com/product/automate-quality-check</loc><lastmod>2026-11-17</lastmod></url>
+  <url><loc>https://revuesuite.com/product/client-feedback</loc><lastmod>2026-11-17</lastmod></url>
+  <url><loc>https://revuesuite.com/product/creative-project-management</loc><lastmod>2026-11-17</lastmod></url>
+  <url><loc>https://revuesuite.com/product/creative-productive-mode</loc><lastmod>2026-11-17</lastmod></url>
+
+  <url><loc>https://revuesuite.com/solutions/design-agencies</loc><lastmod>2026-11-17</lastmod></url>
+  <url><loc>https://revuesuite.com/solutions/marketing-agencies</loc><lastmod>2026-11-17</lastmod></url>
+  <url><loc>https://revuesuite.com/solutions/in-house-creative-teams</loc><lastmod>2026-11-17</lastmod></url>
+
+  <url><loc>https://revuesuite.com/features/creative-collaboration</loc><lastmod>2026-11-17</lastmod></url>
+  <url><loc>https://revuesuite.com/features/creative-workflow</loc><lastmod>2026-11-17</lastmod></url>
+  <url><loc>https://revuesuite.com/features/creative-approval</loc><lastmod>2026-11-17</lastmod></url>
+  <url><loc>https://revuesuite.com/features/design-review</loc><lastmod>2026-11-17</lastmod></url>
+
+  <url><loc>https://revuesuite.com/join-beta</loc><lastmod>2026-11-17</lastmod></url>
+  <url><loc>https://revuesuite.com/privacy</loc><lastmod>2026-11-17</lastmod></url>
+  <url><loc>https://revuesuite.com/terms</loc><lastmod>2026-11-17</lastmod></url>
+</urlset>
