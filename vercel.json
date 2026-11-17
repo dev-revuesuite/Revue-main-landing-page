@@ -1,0 +1,46 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "rewrites": [
+    { "source": "/", "destination": "/website/index.html" },
+    { "source": "/pricing", "destination": "/website/pages/pricing.html" },
+    { "source": "/join-beta", "destination": "/website/join-beta.html" },
+    { "source": "/join-beta.html", "destination": "/website/join-beta.html" },
+
+    { "source": "/product/automate-quality-check", "destination": "/website/pages/product-automate-quality-check.html" },
+    { "source": "/product/client-feedback", "destination": "/website/pages/product-client-feedback.html" },
+    { "source": "/product/creative-project-management", "destination": "/website/pages/product-creative-project-management.html" },
+    { "source": "/product/creative-productive-mode", "destination": "/website/pages/product-creative-productive-mode.html" },
+
+    { "source": "/solutions/design-agencies", "destination": "/website/pages/solution-design-agencies.html" },
+    { "source": "/solutions/marketing-agencies", "destination": "/website/pages/solution-marketing-agencies.html" },
+    { "source": "/solutions/in-house-creative-teams", "destination": "/website/pages/solution-in-house-creative-teams.html" },
+
+    { "source": "/features/creative-collaboration", "destination": "/website/pages/feature-creative-collaboration.html" },
+    { "source": "/features/creative-workflow", "destination": "/website/pages/feature-creative-workflow.html" },
+    { "source": "/features/creative-approval", "destination": "/website/pages/feature-creative-approval.html" },
+    { "source": "/features/design-review", "destination": "/website/pages/feature-design-review.html" },
+
+    { "source": "/privacy", "destination": "/website/privacy.html" },
+    { "source": "/privacy.html", "destination": "/website/privacy.html" },
+    { "source": "/terms", "destination": "/website/terms.html" },
+    { "source": "/terms.html", "destination": "/website/terms.html" },
+
+    { "source": "/qc-tool", "destination": "https://test-revue.vercel.app/qc-tool" },
+    { "source": "/qc-tool/:path*", "destination": "https://test-revue.vercel.app/qc-tool/:path*" },
+    { "source": "/QC-Tool", "destination": "https://test-revue.vercel.app/qc-tool" },
+    { "source": "/QC-Tool/:path*", "destination": "https://test-revue.vercel.app/qc-tool/:path*" },
+
+    { "source": "/_next/:path*", "destination": "https://revue-blog.vercel.app/_next/:path*" },
+    { "source": "/blog", "destination": "https://revue-blog.vercel.app/blog" },
+    { "source": "/blog/:path*", "destination": "https://revue-blog.vercel.app/blog/:path*" },
+    { "source": "/login", "destination": "https://revue-blog.vercel.app/login" },
+    { "source": "/cms", "destination": "https://revue-blog.vercel.app/cms" },
+    { "source": "/cms/:path*", "destination": "https://revue-blog.vercel.app/cms/:path*" },
+    { "source": "/sitemap.xml", "destination": "https://revue-blog.vercel.app/sitemap.xml" },
+    { "source": "/rss.xml", "destination": "https://revue-blog.vercel.app/rss.xml" },
+    { "source": "/robots.txt", "destination": "https://revue-blog.vercel.app/robots.txt" },
+    { "source": "/favicon.png", "destination": "https://revue-blog.vercel.app/favicon.png" },
+    { "source": "/og-default.png", "destination": "https://revue-blog.vercel.app/og-default.png" },
+    { "source": "/logo.webp", "destination": "https://revue-blog.vercel.app/logo.webp" }
+  ]
+}

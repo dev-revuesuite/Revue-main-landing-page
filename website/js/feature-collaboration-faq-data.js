@@ -1,0 +1,16 @@
+window.FEATURE_COLLABORATION_FAQ = [
+  { q: 'What is creative collaboration software?', a: 'Creative collaboration software helps designers, clients, and stakeholders review work, share feedback, and align on revisions in one connected workspace.' },
+  { q: 'Why do creative teams need collaboration software?', a: 'Feedback scattered across email and chat slows projects and causes missed notes. One workspace keeps comments tied to the right file and version.' },
+  { q: 'What are creative collaboration tools used for?', a: 'Sharing WIP creative, annotating designs, comparing versions, discussing changes, and moving work toward approval without losing context.' },
+  { q: 'How does Revue improve creative team collaboration?', a: 'Revue combines upload, review, annotations, client sharing, and approvals so internal and external collaborators work on the same source of truth.' },
+  { q: 'What are visual annotations in creative collaboration?', a: 'Pins and marks on the design that show exactly what needs to change—clearer than describing issues in text alone.' },
+  { q: 'Can clients collaborate with internal creative teams?', a: 'Yes. Clients can review shared work, comment, and approve while your team keeps internal discussion separate when needed.' },
+  { q: 'What is the difference between design collaboration software and project management software?', a: 'Collaboration tools focus on the creative file and feedback. PM tools focus on tasks and timelines—Revue connects both where they meet.' },
+  { q: 'How does version comparison help creative teams?', a: 'Side-by-side or overlay comparison shows what changed between rounds so reviewers focus on deltas, not full re-reads.' },
+  { q: 'What is contextual feedback?', a: 'Feedback attached to the asset and version it refers to, with thread history—so nobody acts on outdated comments.' },
+  { q: 'Can creative collaboration software reduce feedback confusion?', a: 'Yes. Centralized, visual, version-aware feedback cuts ambiguous notes and wrong-file revisions.' },
+  { q: 'How can creative teams collaborate without using too many tools?', a: 'Use one platform for review, feedback, and approval instead of chaining storage, chat, email, and ad-hoc proofing apps.' },
+  { q: 'What should I look for in creative collaboration software?', a: 'Annotations, version control, client sharing, roles/permissions, approval status, and security that fits your team size.' },
+  { q: 'Is Revue a visual collaboration software?', a: 'Yes. Revue is built for visual creative review—annotations, comparisons, and structured collaboration around design files.' },
+  { q: 'Who can use creative collaboration software?', a: 'Design agencies, in-house brand teams, marketing studios, and any group that reviews visual creative with clients or stakeholders.' },
+];

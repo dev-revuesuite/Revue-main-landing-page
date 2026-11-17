@@ -1,0 +1,23 @@
+{
+  "rewrites": [
+    { "source": "/", "destination": "/website/index.html" },
+    { "source": "/pricing", "destination": "/website/pages/pricing.html" },
+    { "source": "/join-beta", "destination": "/website/join-beta.html" },
+    { "source": "/join-beta.html", "destination": "/website/join-beta.html" },
+    { "source": "/product/automate-quality-check", "destination": "/website/pages/product-automate-quality-check.html" },
+    { "source": "/product/client-feedback", "destination": "/website/pages/product-client-feedback.html" },
+    { "source": "/product/creative-project-management", "destination": "/website/pages/product-creative-project-management.html" },
+    { "source": "/product/creative-productive-mode", "destination": "/website/pages/product-creative-productive-mode.html" },
+    { "source": "/solutions/design-agencies", "destination": "/website/pages/solution-design-agencies.html" },
+    { "source": "/solutions/marketing-agencies", "destination": "/website/pages/solution-marketing-agencies.html" },
+    { "source": "/solutions/in-house-creative-teams", "destination": "/website/pages/solution-in-house-creative-teams.html" },
+    { "source": "/features/creative-collaboration", "destination": "/website/pages/feature-creative-collaboration.html" },
+    { "source": "/features/creative-workflow", "destination": "/website/pages/feature-creative-workflow.html" },
+    { "source": "/features/creative-approval", "destination": "/website/pages/feature-creative-approval.html" },
+    { "source": "/features/design-review", "destination": "/website/pages/feature-design-review.html" },
+    { "source": "/privacy", "destination": "/website/privacy.html" },
+    { "source": "/privacy.html", "destination": "/website/privacy.html" },
+    { "source": "/terms", "destination": "/website/terms.html" },
+    { "source": "/terms.html", "destination": "/website/terms.html" }
+  ]
+}

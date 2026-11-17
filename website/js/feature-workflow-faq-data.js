@@ -1,0 +1,17 @@
+window.FEATURE_WORKFLOW_FAQ = [
+  { q: 'What is a creative workflow?', a: 'The end-to-end path from brief through production, review, revision, QA, approval, and delivery—how creative work actually moves in your team.' },
+  { q: 'What is creative workflow management?', a: 'Organizing and tracking that path so everyone knows what stage work is in and what happens next.' },
+  { q: 'What does a modern creative workflow look like?', a: 'Brief → production → internal review → client review → revision → QA → approval → delivery, with versions and feedback connected at each step.' },
+  { q: 'Why is a structured creative workflow important?', a: 'It reduces bottlenecks, wrong versions, and last-minute surprises by making status and ownership visible.' },
+  { q: 'How can creative teams improve their workflow?', a: 'Standardize handoffs, review early, automate repeatable QA, and keep feedback on the asset—not in side channels.' },
+  { q: 'What is a creative production workflow?', a: 'How work is produced after the brief: assignments, file versions, internal checkpoints, and prep for client review.' },
+  { q: 'How does creative workflow automation help teams?', a: 'Automation handles repeatable checks and routing so people spend time on judgment calls, not manual chasing.' },
+  { q: 'How does Revue manage the creative workflow?', a: 'Revue links briefs, files, review, QA, client rounds, and approval in one flow so context is never lost between stages.' },
+  { q: 'How does client feedback fit into a creative workflow?', a: 'Client review sits after internal QA/review; feedback returns as structured revisions tied to the version clients saw.' },
+  { q: 'Why should creative work be reviewed internally before client review?', a: 'Internal pass catches errors and alignment issues so client time is spent on creative direction, not preventable fixes.' },
+  { q: 'Where does QA fit into a creative workflow?', a: 'Before client share or final approval—automated and manual checks while changes are still cheap to make.' },
+  { q: 'How should revisions work in a creative workflow?', a: 'Each round is a new version with linked comments resolved or carried forward; status shows what is open vs approved.' },
+  { q: 'How can teams manage creative approvals?', a: 'Define who signs off, lock approved versions, and record history so delivery uses the correct file.' },
+  { q: 'What should I look for in creative workflow software?', a: 'Version control, review/annotation, client sharing, QA, approvals, and visibility for PMs without extra tools.' },
+  { q: 'Who can benefit from creative workflow software?', a: 'Agencies, in-house teams, and marketing orgs running multi-step creative with several reviewers.' },
+];
