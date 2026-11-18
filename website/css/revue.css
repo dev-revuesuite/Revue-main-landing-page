@@ -214,6 +214,15 @@ body.v2 {
   margin-bottom: 16px;
 }
 
+/* Figma illustration inside a menu card (fixed box, artwork fitted inside) */
+.v2 .v2-mega-card-visual--illus {
+  height: 176px;
+  object-fit: contain;
+  padding: 14px;
+  box-sizing: border-box;
+  background: #f6f7fb;
+}
+
 /* Illustrated tile (solutions and features cards) */
 .v2-mega-card-art {
   display: flex;
@@ -1582,7 +1591,7 @@ body.v2 {
 
 /* A5 — Ecosystem */
 .v2-ecosystem {
-  padding: 64px;
+  padding: 64px 64px 16px;
   background: #fff;
 }
 
@@ -1629,10 +1638,9 @@ body.v2 {
   z-index: 2;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   gap: 20px;
-  min-height: calc(100vh - 96px);
-  padding: 8px 0 32px;
+  padding: 8px 0 16px;
 }
 
 .v2-ecosystem-panel {
@@ -2081,6 +2089,10 @@ body.v2 {
   max-width: 1280px;
   margin: 0 auto;
   height: auto;
+  /* Crop the flat light strip above the curve (about 60px at full width). */
+  aspect-ratio: 1280 / 228;
+  object-fit: cover;
+  object-position: center bottom;
 }
 
 .v2-problem-main {
@@ -2676,7 +2688,6 @@ body.v2 {
 
   .v2-ecosystem-sticky {
     top: 64px;
-    min-height: calc(100vh - 80px);
   }
 
   .v2-ecosystem-chrome {

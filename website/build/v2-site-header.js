@@ -76,7 +76,7 @@ const productCards = [
     eyebrow: 'Automate quality check',
     title: 'Automate Quality Check',
     desc: 'Catch design errors before they reach the client.',
-    visual: `<img class="v2-mega-card-visual" src="${routes.megaQa}" alt="" width="246" height="176" loading="lazy">${compactIcon('qa')}`,
+    visual: `<img class="v2-mega-card-visual v2-mega-card-visual--illus" src="${routes.megaQa}" alt="" width="246" height="176" loading="lazy">${compactIcon('qa')}`,
   },
   {
     href: routes.productFeedback,
@@ -84,7 +84,7 @@ const productCards = [
     eyebrow: 'Client feedback &amp; communication',
     title: 'Client Feedback &amp; Communication',
     desc: 'Keep client feedback focused, clear, and connected to the work.',
-    visual: `<img class="v2-mega-card-visual" src="${routes.megaFeedback}" alt="" width="246" height="176" loading="lazy">${compactIcon('feedback')}`,
+    visual: `<img class="v2-mega-card-visual v2-mega-card-visual--illus" src="${routes.megaFeedback}" alt="" width="246" height="176" loading="lazy">${compactIcon('feedback')}`,
   },
   {
     href: routes.productPm,
@@ -92,7 +92,7 @@ const productCards = [
     eyebrow: 'Creative project management',
     title: 'Creative Project Management',
     desc: 'Keep briefs, versions, reviews, and approvals moving together.',
-    visual: `<img class="v2-mega-card-visual" src="${routes.megaPm}" alt="" width="246" height="176" loading="lazy">${compactIcon('pm')}`,
+    visual: `<img class="v2-mega-card-visual v2-mega-card-visual--illus" src="${routes.megaPm}" alt="" width="246" height="176" loading="lazy">${compactIcon('pm')}`,
   },
   {
     href: routes.productModes,
@@ -100,7 +100,7 @@ const productCards = [
     eyebrow: 'Creative + productive mode',
     title: 'Creative &amp; Productive Mode',
     desc: 'Choose the workflow that fits the work.',
-    visual: `<img class="v2-mega-card-visual" src="${routes.megaModes}" alt="" width="246" height="176" loading="lazy">${compactIcon('modes')}`,
+    visual: `<img class="v2-mega-card-visual v2-mega-card-visual--illus" src="${routes.megaModes}" alt="" width="246" height="176" loading="lazy">${compactIcon('modes')}`,
   },
 ];
 
@@ -111,7 +111,7 @@ const solutionCards = [
     eyebrow: 'Design agencies',
     title: 'Design Agencies',
     desc: 'Manage more clients without approval chaos.',
-    visual: artTile('design', 'Multi-client', 'blue'),
+    visual: `<img class="v2-mega-card-visual v2-mega-card-visual--illus" src="/website/assets/homepage/mega-menu/v2/solution-design-agencies.webp" alt="" width="246" height="176" loading="lazy">`,
   },
   {
     href: routes.solutionMarketing,
@@ -119,7 +119,7 @@ const solutionCards = [
     eyebrow: 'Marketing agencies',
     title: 'Marketing Agencies',
     desc: 'Ship campaigns faster with fewer revision rounds.',
-    visual: artTile('marketing', 'Campaign-ready', 'violet'),
+    visual: `<img class="v2-mega-card-visual v2-mega-card-visual--illus" src="/website/assets/homepage/mega-menu/v2/solution-marketing-agencies.webp" alt="" width="246" height="176" loading="lazy">`,
   },
   {
     href: routes.solutionInhouse,
@@ -127,7 +127,7 @@ const solutionCards = [
     eyebrow: 'In-house creative teams',
     title: 'In-house Creative Teams',
     desc: 'Keep stakeholders aligned from brief to sign-off.',
-    visual: artTile('inhouse', 'Stakeholder-aligned', 'teal'),
+    visual: `<img class="v2-mega-card-visual v2-mega-card-visual--illus" src="/website/assets/homepage/mega-menu/v2/solution-in-house.webp" alt="" width="246" height="176" loading="lazy">`,
   },
 ];
 
@@ -138,7 +138,7 @@ const featureCards = [
     eyebrow: 'Creative collaboration',
     title: 'Creative Collaboration',
     desc: 'Review work and share feedback in one workspace.',
-    visual: artTile('collab', 'Shared context', 'blue'),
+    visual: `<img class="v2-mega-card-visual v2-mega-card-visual--illus" src="/website/assets/homepage/mega-menu/v2/feature-collaboration.webp" alt="" width="246" height="176" loading="lazy">`,
   },
   {
     href: routes.featureWorkflow,
@@ -146,7 +146,7 @@ const featureCards = [
     eyebrow: 'Creative workflow',
     title: 'Creative Workflow',
     desc: 'Move work from brief to delivery in clear stages.',
-    visual: artTile('workflow', 'Brief to delivery', 'violet'),
+    visual: `<img class="v2-mega-card-visual v2-mega-card-visual--illus" src="/website/assets/homepage/mega-menu/v2/feature-workflow.webp" alt="" width="246" height="176" loading="lazy">`,
   },
   {
     href: routes.featureApproval,
@@ -154,7 +154,7 @@ const featureCards = [
     eyebrow: 'Creative approval',
     title: 'Creative Approval',
     desc: 'Capture sign-off and keep approved versions locked.',
-    visual: artTile('approval', 'Sign-off tracked', 'teal'),
+    visual: `<img class="v2-mega-card-visual v2-mega-card-visual--illus" src="/website/assets/homepage/mega-menu/v2/feature-approval.webp" alt="" width="246" height="176" loading="lazy">`,
   },
   {
     href: routes.featureReview,
@@ -162,7 +162,7 @@ const featureCards = [
     eyebrow: 'Design review',
     title: 'Design Review',
     desc: 'Annotate designs, PDFs, images and video precisely.',
-    visual: artTile('review', 'Pixel-level notes', 'amber'),
+    visual: `<img class="v2-mega-card-visual v2-mega-card-visual--illus" src="/website/assets/homepage/mega-menu/v2/feature-design-review.webp" alt="" width="246" height="176" loading="lazy">`,
   },
 ];
 
