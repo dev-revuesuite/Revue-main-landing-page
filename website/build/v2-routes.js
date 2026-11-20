@@ -43,6 +43,7 @@ const routes = {
   backedIstart: `${IMG}/339-13417.webp`,
   backedNsrcel: `${IMG}/339-13433.webp`,
   backedMiic: `${IMG}/339-13444.webp`,
+  backedNvidia: `${IMG}/nvidia-inception.webp`,
   footerLogo: `${IMG}/7d275ce742aa3fafff79d727f370af505a567cf8.webp`,
   figmaAsset,
   faqScript: (name) => `/website/js/${name}`,

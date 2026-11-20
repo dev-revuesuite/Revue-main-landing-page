@@ -182,8 +182,9 @@ function featureSections(features, p) {
         return modeFitWorkSection;
       }
       if (f.type === 'visual') {
+        const bg = f.background ? ` style="background-color: ${f.background}"` : '';
         return `
-    <section class="v2-product-section-shot" aria-label="Product feature ${i + 1}">
+    <section class="v2-product-section-shot" aria-label="Product feature ${i + 1}"${bg}>
       <img src="${figmaAsset(f.src)}" alt="${f.alt}" width="1280" loading="lazy">
     </section>`;
       }

@@ -324,6 +324,8 @@ module.exports = [
         type: 'visual',
         src: '../assets/pages/product-creative-productive-mode/sections/339-24171.webp',
         alt: 'Creative Mode — shared conversation, collaboration, and exploratory creative work',
+        // Matches the image's edge colour so the narrower image still looks full-width.
+        background: '#292f42',
       },
       {
         type: 'visual',

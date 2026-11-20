@@ -428,6 +428,13 @@
   max-width: none;
 }
 
+/* The text is baked into these images, so at full screen width it read too large.
+   Show them at 75% width on desktop, but never narrower than 1100px (or the screen). */
+.v2-productive-mode-page .v2-product-section-shot img {
+  width: min(100%, max(75%, 1100px));
+  margin: 0 auto;
+}
+
 /* Choose the mode — Figma 339:24427 */
 .v2-mode-fit-work {
   padding: 90px 0;
